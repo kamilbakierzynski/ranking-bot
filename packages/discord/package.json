@@ -1,0 +1,16 @@
+{
+  "name": "@ranking-bot/discord",
+  "version": "1.0.0",
+  "author": "Kamil Bakierzynski",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./out/index.js",
+    "dev": "ts-node-dev --respawn --transpile-only ./src/index.ts",
+    "lint": "eslint . --ignore-path .gitignore --ext .ts,.tsx,.js",
+    "lint:fix": "yarn lint --fix",
+    "prettier": "prettier --check .",
+    "prettier:fix": "prettier --write ."
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "@ranking-bot/backend",
+  "version": "1.0.0",
+  "author": "Kamil Bakierzynski",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./out/index.js",
+    "dev": "ts-node-dev --respawn --transpile-only ./src/index.ts",
+    "lint": "eslint . --ignore-path .gitignore --ext .ts,.tsx,.js",
+    "lint:fix": "yarn lint --fix",
+    "prettier": "prettier --check .",
+    "prettier:fix": "prettier --write ."
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14",
+    "ts-node-dev": "^1.1.8"
+  },
+  "dependencies": {
+    "@ranking-bot/types": "1.0.0",
+    "fastify": "^3.23.1",
+    "monet": "^0.9.2",
+    "mongoose": "^6.0.12"
+  }
+}

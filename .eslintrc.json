@@ -1,0 +1,19 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": ["./tsconfig.json"]
+  },
+  "extends": [
+    "eslint:recommended",
+    "standard",
+    "prettier",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:workspaces/recommended"
+  ],
+  "plugins": ["@typescript-eslint", "workspaces"],
+  "env": {
+    "es6": true,
+    "node": true
+  },
+  "ignorePatterns": ["out", "node_modules", "examples", "scripts"]
+}
