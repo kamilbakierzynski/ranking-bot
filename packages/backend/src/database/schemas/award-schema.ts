@@ -1,10 +1,11 @@
-import mongoose from 'mongoose';
+import mongoose from "mongoose";
+import { Award } from "@ranking-bot/types/database/award";
 
-const {Schema} = mongoose;
+const { Schema } = mongoose;
 
-export const awardSchema = new Schema({
+export const awardSchema = new Schema<Award>({
   date: Date,
-  user: {type: Schema.Types.ObjectId, ref: "User"},
+  user: { type: Schema.Types.ObjectId, ref: "User" },
   place: Number,
   connected: Number,
   onMute: Number,

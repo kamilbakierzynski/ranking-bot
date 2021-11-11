@@ -37,6 +37,9 @@
     {
       "path": "packages/discord"
     },
+    {
+      "path": "packages/common"
+    }
   ],
   "exclude": [
     "node_modules",

@@ -1,5 +1,5 @@
 {
-  "name": "@ranking-bot/types",
+  "name": "@ranking-bot/common",
   "version": "1.0.0",
   "author": "Kamil Bakierzynski",
   "main": "index.js",

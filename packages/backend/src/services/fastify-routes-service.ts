@@ -1,3 +1,5 @@
+/* eslint-disable no-use-before-define */
+
 import {
   FastifyInstance,
   RouteHandlerMethod,
@@ -42,11 +44,13 @@ export class FastifyRoutesService {
     path: string,
     handler: RouteHandlerMethod
   ): FastifyRoutesService;
+
   public static get(
     path: string,
     opts: RouteShorthandOptions,
     handler: RouteHandlerMethod
   ): FastifyRoutesService;
+
   public static get(
     path: string,
     paramTwo?: RouteShorthandOptions | RouteHandlerMethod,
@@ -70,11 +74,13 @@ export class FastifyRoutesService {
     path: string,
     handler: RouteHandlerMethod
   ): FastifyRoutesService;
+
   public static head(
     path: string,
     opts: RouteShorthandOptions,
     handler: RouteHandlerMethod
   ): FastifyRoutesService;
+
   public static head(
     path: string,
     paramTwo?: RouteShorthandOptions | RouteHandlerMethod,
@@ -98,11 +104,13 @@ export class FastifyRoutesService {
     path: string,
     handler: RouteHandlerMethod
   ): FastifyRoutesService;
+
   public static post(
     path: string,
     opts: RouteShorthandOptions,
     handler: RouteHandlerMethod
   ): FastifyRoutesService;
+
   public static post(
     path: string,
     paramTwo?: RouteShorthandOptions | RouteHandlerMethod,
@@ -126,11 +134,13 @@ export class FastifyRoutesService {
     path: string,
     handler: RouteHandlerMethod
   ): FastifyRoutesService;
+
   public static put(
     path: string,
     opts: RouteShorthandOptions,
     handler: RouteHandlerMethod
   ): FastifyRoutesService;
+
   public static put(
     path: string,
     paramTwo?: RouteShorthandOptions | RouteHandlerMethod,
@@ -154,11 +164,13 @@ export class FastifyRoutesService {
     path: string,
     handler: RouteHandlerMethod
   ): FastifyRoutesService;
+
   public static delete(
     path: string,
     opts: RouteShorthandOptions,
     handler: RouteHandlerMethod
   ): FastifyRoutesService;
+
   public static delete(
     path: string,
     paramTwo?: RouteShorthandOptions | RouteHandlerMethod,
@@ -182,11 +194,13 @@ export class FastifyRoutesService {
     path: string,
     handler: RouteHandlerMethod
   ): FastifyRoutesService;
+
   public static options(
     path: string,
     opts: RouteShorthandOptions,
     handler: RouteHandlerMethod
   ): FastifyRoutesService;
+
   public static options(
     path: string,
     paramTwo?: RouteShorthandOptions | RouteHandlerMethod,
@@ -210,11 +224,13 @@ export class FastifyRoutesService {
     path: string,
     handler: RouteHandlerMethod
   ): FastifyRoutesService;
+
   public static patch(
     path: string,
     opts: RouteShorthandOptions,
     handler: RouteHandlerMethod
   ): FastifyRoutesService;
+
   public static patch(
     path: string,
     paramTwo?: RouteShorthandOptions | RouteHandlerMethod,

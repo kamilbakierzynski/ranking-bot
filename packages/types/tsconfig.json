@@ -2,8 +2,8 @@
   "extends": "../../tsconfig.json",
   "compilerOptions": {
     "baseUrl": ".",
-    "outDir": "./out",
+    "outDir": "./out"
   },
-  "include": ["src"],
+  "include": ["api", "database"],
   "exclude": ["node_modules", "**/__tests__/*"]
 }
