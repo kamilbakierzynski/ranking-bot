@@ -1,6 +1,6 @@
 {
   "name": "@ranking-bot/backend",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "author": "Kamil Bakierzynski",
   "main": "index.js",
   "license": "MIT",
@@ -18,8 +18,8 @@
     "ts-node-dev": "^1.1.8"
   },
   "dependencies": {
-    "@ranking-bot/common": "1.0.0",
-    "@ranking-bot/types": "1.0.0",
+    "@ranking-bot/common": "^1.2.0",
+    "@ranking-bot/types": "^1.2.0",
     "cron": "^1.8.2",
     "fastify": "^3.23.1",
     "monet": "^0.9.2",
